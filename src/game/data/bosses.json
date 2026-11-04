@@ -1,0 +1,9 @@
+[
+  {"id":"boss_coach","name":"韭菜健身教练","ai":"coach","hp":5200,"speed":78,"dmg":24,"radius":34,"scale":2,"gold":500,"xp":200,"look":"肌肉发达的巨型韭菜","skills":["冲撞","地面震荡","召唤小韭菜"],"trait":"近战高伤害","quote":"今天练腿，明天练你！"},
+  {"id":"boss_king","name":"资本韭菜王","ai":"king","hp":7600,"speed":110,"dmg":26,"radius":32,"scale":2,"gold":900,"xp":260,"look":"金色西装，头戴皇冠","skills":["金融风暴","金币炸弹","召唤保镖"],"trait":"高机动、高伤害","quote":"你的收割，只是我的资产负债表一行小字。"},
+  {"id":"boss_saint","name":"韭菜剑圣","ai":"saint","hp":8800,"speed":120,"dmg":30,"radius":30,"scale":2,"gold":1200,"xp":320,"look":"手持巨大镰刀的绿色武士","skills":["快速突进","反击","分身"],"trait":"针对近战玩家","quote":"你的镰刀，我已经看了七十二遍。"},
+  {"id":"boss_ancient","name":"万年老韭菜","ai":"ancient","hp":9000,"speed":40,"dmg":28,"radius":44,"scale":2.4,"gold":1500,"xp":380,"revives":2,"look":"古老巨型韭菜","skills":["多阶段复活","植物藤蔓","全屏震荡"],"trait":"高生命值","quote":"割了一万年了，还不是一茬一茬又长回来。"},
+  {"id":"boss_lord","name":"黄金庄园主","ai":"king","hp":14000,"speed":118,"dmg":32,"radius":34,"scale":2.1,"gold":2200,"xp":420,"look":"更金、更圆、更有钱的资本韭菜王","skills":["金融风暴","金币炸弹","召唤保镖"],"trait":"钞能力全开","quote":"这片庄园的地价，比你的命贵。"},
+  {"id":"boss_general","name":"起义军总司令","ai":"general","hp":16000,"speed":100,"dmg":34,"radius":34,"scale":2.1,"gold":2600,"xp":480,"look":"披挂战旗的韭菜将军","skills":["冲撞","地面震荡","快速突进","召唤起义军"],"trait":"组织严密","quote":"全体韭菜听令：今日，反向收割！"},
+  {"id":"boss_chairman","name":"韭菜联合会主席","ai":"chairman","hp":24000,"speed":60,"dmg":36,"radius":46,"scale":2.5,"gold":5000,"xp":800,"look":"巨大韭菜王座，背后有大量韭菜军团","skills":["全屏韭菜浪潮","反镰刀机器人","学习玩家攻击方式","韭菜起义军"],"trait":"最终阶段混入人群，必须找出本体","quote":"你以为你在收割韭菜，其实韭菜一直在研究怎么收割你。"}
+]

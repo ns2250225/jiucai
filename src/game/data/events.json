@@ -1,0 +1,27 @@
+[
+  {"id":"harvest","name":"韭菜大丰收","duration":30,"mods":{"spawn":2},"reward":60,"announce":"今年雨水好，韭菜生成数量翻倍！","result":"大丰收结束，感谢它们对 GDP 的贡献。"},
+  {"id":"surge","name":"韭菜暴涨","duration":25,"mods":{"drop":2},"reward":80,"announce":"韭菜概念股涨停！所有掉落价值翻倍！","result":"暴涨结束，高位接盘的韭菜已被妥善收割。"},
+  {"id":"plunge","name":"韭菜跳水","duration":25,"mods":{"drop":0.5},"reward":40,"announce":"韭菜跳水！掉落价值腰斩。","result":"跳水结束，专家表示这是健康回调。"},
+  {"id":"golden","name":"黄金韭菜现身","duration":22,"action":"goldenWave","reward":100,"announce":"一群高净值黄金韭菜路过！快追！","result":"黄金韭菜已撤离，留下一地传说。"},
+  {"id":"exodus","name":"韭菜大逃亡","duration":20,"mods":{"flee":1},"reward":80,"announce":"韭菜听说了什么内部消息，全体向地图边缘逃跑！","result":"逃亡结束，韭菜发现外面的田也一样。"},
+  {"id":"uprising","name":"韭菜起义","duration":35,"mods":{"aggro":1.45,"spawn":1.4},"action":"uprising","reward":220,"announce":"韭菜起义爆发！所有韭菜主动攻击！","result":"起义被镇压。官方通报：系境外势力煽动。"},
+  {"id":"coin_rain","name":"天降金币","duration":20,"action":"coinRain","reward":0,"announce":"天上掉馅饼了！地图掉落大量金币！","result":"金币雨停了，那通常意味着有人买单。"},
+  {"id":"awaken","name":"镰刀觉醒","duration":30,"mods":{"playerDmg":1.5},"reward":50,"announce":"你的镰刀通过了韭菜安全委员会认证！所有武器伤害增加！","result":"镰刀又回到了普通的锋利程度。"},
+  {"id":"crash","name":"市场崩盘","duration":25,"mods":{"spawn":2.6},"action":"crashWave","reward":180,"announce":"市场崩盘！高密度韭菜敌潮涌来！","result":"崩盘结束，抄底的韭菜已全部被收割。"},
+  {"id":"banker","name":"神秘庄家","duration":30,"action":"banker","reward":60,"announce":"神秘庄家向你眨了眨眼，你获得随机强力强化！","result":"庄家离场了，别问，问就是不认识。"},
+  {"id":"breakthrough","name":"科技突破","duration":20,"action":"breakthrough","reward":100,"announce":"韭菜联合会科研突破！韭菜获得一次特殊进化！","result":"研究成果已写入韭菜 DNA。"},
+  {"id":"insider","name":"内幕消息","duration":25,"action":"insider","reward":50,"announce":"小道消息：地图某处出现了隐藏宝箱！","result":"内幕消息已失效，请以官方公告为准。"},
+
+  {"id":"bull_run","name":"牛市狂欢","exclusive":true,"duration":25,"mods":{"drop":2.5,"spawn":1.4},"action":"marketUp","reward":120,"announce":"大盘冲破一万点！连楼下的狗都开始荐股！","result":"狂欢落幕，下一个牛市就在下一个周期。"},
+  {"id":"flash_crash","name":"闪崩","exclusive":true,"duration":20,"mods":{"drop":0.4,"aggro":1.3},"action":"marketDown","reward":120,"announce":"闪崩！韭菜红着眼向你冲来！","result":"指数回升，砖家称这是技术性调整。"},
+  {"id":"gold_devalue","name":"金币贬值","exclusive":true,"duration":30,"mods":{"gold":0.5},"action":"marketDown","reward":150,"announce":"央行宣布金币暂时贬值，手里的金币不香了！","result":"汇率恢复，贬值部分已计入你的人生经验。"},
+  {"id":"margin_call","name":"强制平仓","exclusive":true,"duration":25,"mods":{"enemyDmg":1.35,"aggro":1.2},"reward":200,"announce":"你被强制平仓！韭菜攻击力大涨！","result":"保证金已补足，韭菜暂时收起了牙齿。"},
+  {"id":"tech_leak","name":"技术泄露","exclusive":true,"duration":25,"action":"techCenter","reward":150,"announce":"你的镰刀图纸泄露了！新的韭菜科技中心已建成！","result":"泄露事件调查结束，责任人是一根临时工韭菜。"},
+  {"id":"patent_war","name":"专利大战","exclusive":true,"duration":25,"action":"coreSpawn","reward":150,"announce":"进化核心暴露！限时摧毁可让韭菜技术倒退！","result":"专利官司打完了，律师赚了。"},
+  {"id":"gold_fountain","name":"金币喷泉","exclusive":true,"duration":25,"action":"coinRain","mods":{"gold":1.5},"reward":200,"announce":"庄园喷泉喷出了金币！","result":"喷泉停水，物业费已自动扣除。"},
+  {"id":"tax_audit","name":"税务稽查","exclusive":true,"duration":25,"mods":{"gold":0.7,"spawn":1.5},"action":"guardWave","reward":220,"announce":"税务稽查来了！富豪韭菜派出全部保镖！","result":"稽查结束，账本查无此人。"},
+  {"id":"general_mobilize","name":"全军动员","exclusive":true,"duration":30,"action":"eliteWave","mods":{"aggro":1.25},"reward":260,"announce":"起义军总部下达动员令！精英韭菜全线压上！","result":"动员令解除，韭菜们回去继续种自己。"},
+  {"id":"rebel_assault","name":"防线突袭","exclusive":true,"duration":25,"action":"towerRing","reward":240,"announce":"你的四周突然冒出了防御塔！","result":"防御工事已被拆除，违章建筑人人有责。"},
+  {"id":"all_in","name":"梭哈","exclusive":true,"duration":30,"mods":{"playerDmg":1.5,"enemyDmg":1.5},"reward":300,"announce":"梭哈！你和韭菜的伤害同时提升 50%！","result":"梭哈结束。这局算你赢，也可能算它们赢。"},
+  {"id":"hostile_takeover","name":"恶意收购","exclusive":true,"duration":25,"action":"breakthrough","mods":{"spawn":1.6},"reward":320,"announce":"韭菜联合会正在恶意收购你的镰刀产业！","result":"收购失败，反垄断部门表示很欣慰。"}
+]

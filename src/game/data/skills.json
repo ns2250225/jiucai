@@ -1,0 +1,59 @@
+{
+  "passives":[
+    {"id":"greed_heart","name":"贪婪之心","desc":"金币获取 +20%","effects":{"gold":0.2},"max":3},
+    {"id":"death_watch","name":"死神怀表","desc":"攻击速度 +15%","effects":{"atkSpeed":0.15},"max":3},
+    {"id":"glove","name":"收割者手套","desc":"攻击范围 +20%","effects":{"range":0.2},"max":3},
+    {"id":"clover","name":"幸运四叶草","desc":"暴击率 +10%","effects":{"crit":0.1},"max":3},
+    {"id":"xp_crystal","name":"经验水晶","desc":"经验获取 +20%","effects":{"xp":0.2},"max":3},
+    {"id":"life_potion","name":"生命药剂","desc":"最大生命 +20","effects":{"hp":20},"max":5},
+    {"id":"sandals","name":"农夫草鞋","desc":"移动速度 +15%","effects":{"speed":0.15},"max":3},
+    {"id":"iron_armor","name":"铁质护甲","desc":"受到伤害 -10%","effects":{"armor":0.1},"max":3},
+    {"id":"magnet_item","name":"磁铁","desc":"道具吸收范围 +30%","effects":{"magnet":0.3},"max":3},
+    {"id":"encyclopedia","name":"韭菜百科全书","desc":"对韭菜伤害 +15%","effects":{"leekDmg":0.15},"max":3,"locked":true,"price":1500},
+    {"id":"contract","name":"资本家合同","desc":"精英敌人金币掉落 +30%","effects":{"eliteGold":0.3},"max":3,"locked":true,"price":1200},
+    {"id":"hedge","name":"风险对冲协议","desc":"获得一次免死机会","effects":{"revive":1},"max":2,"locked":true,"price":3000},
+    {"id":"storm_core","name":"风暴核心","desc":"攻击范围 +8%（旋风镰刀进化素材）","effects":{"range":0.08},"max":1,"rare":true,"evolves":"whirl"},
+    {"id":"thunder_rune","name":"雷电符文","desc":"闪电伤害 +20%（闪电镰刀进化素材）","effects":{"lightning":0.2},"max":1,"rare":true,"evolves":"lightning"},
+    {"id":"heat_core","name":"炽热核心","desc":"攻击速度 +6%（火焰镰刀进化素材）","effects":{"atkSpeed":0.06},"max":1,"rare":true,"evolves":"fire"},
+    {"id":"perma_crystal","name":"永冻结晶","desc":"暴击率 +5%（冰霜镰刀进化素材）","effects":{"crit":0.05},"max":1,"rare":true,"evolves":"frost"},
+    {"id":"void_core","name":"虚空核心","desc":"引力 +20%（黑洞镰刀进化素材）","effects":{"pull":0.2},"max":1,"rare":true,"evolves":"blackhole"},
+    {"id":"optic_core","name":"光学核心","desc":"伤害 +8%（激光镰刀进化素材）","effects":{"damage":0.08},"max":1,"rare":true,"evolves":"laser"},
+    {"id":"clone_rune","name":"分身符文","desc":"伤害 +8%（双刃镰刀进化素材）","effects":{"damage":0.08},"max":1,"rare":true,"evolves":"twin"},
+    {"id":"power_core","name":"动力核心","desc":"移动速度 +8%（电锯镰刀进化素材）","effects":{"speed":0.08},"max":1,"rare":true,"evolves":"chainsaw"},
+    {"id":"return_rune","name":"回旋符文","desc":"攻击速度 +6%（飞旋镰刀进化素材）","effects":{"atkSpeed":0.06},"max":1,"rare":true,"evolves":"boomerang"}
+  ],
+  "stats":[
+    {"id":"stat_damage","name":"收割效率","desc":"伤害 +{v}%","key":"damage","value":0.06},
+    {"id":"stat_speed","name":"跑路能力","desc":"移动速度 +{v}%","key":"speed","value":0.05},
+    {"id":"stat_range","name":"业务范围","desc":"攻击范围 +{v}%","key":"range","value":0.06},
+    {"id":"stat_atk","name":"高频交易","desc":"攻击速度 +{v}%","key":"atkSpeed","value":0.06},
+    {"id":"stat_hp","name":"抗风险能力","desc":"最大生命 +{n}","key":"hp","value":12},
+    {"id":"stat_luck","name":"内幕运气","desc":"幸运 +{v}%","key":"luck","value":0.08},
+    {"id":"stat_crit","name":"精准抄底","desc":"暴击率 +{v}%","key":"crit","value":0.03},
+    {"id":"stat_xp","name":"韭菜研究","desc":"经验获取 +{v}%","key":"xp","value":0.07},
+    {"id":"stat_gold","name":"理财技巧","desc":"金币获取 +{v}%","key":"gold","value":0.07},
+    {"id":"stat_magnet","name":"资金虹吸","desc":"吸收范围 +{v}%","key":"magnet","value":0.12}
+  ],
+  "specials":[
+    {"id":"sp_reap","name":"死亡收割","desc":"获得/强化死亡收割：冷却 -20%，周期性对周围韭菜造成高额伤害","flag":"reap","max":3},
+    {"id":"sp_wealth","name":"财富暴击","desc":"连杀每 30 次引发金币爆炸，并短暂提升伤害","flag":"wealth","max":1},
+    {"id":"sp_chain","name":"连锁爆炸","desc":"燃烧中的韭菜死亡时爆炸，引燃周围韭菜","flag":"chainBurn","max":1},
+    {"id":"sp_count","name":"杠杆加倍","desc":"所有武器攻击数量 +1","flag":"extraCount","max":2},
+    {"id":"sp_stoploss","name":"止损线","desc":"生命低于 35% 时伤害 +35%","flag":"stoploss","max":1},
+    {"id":"sp_regen","name":"稳健理财","desc":"每秒恢复 0.6 点生命","flag":"regen","max":3},
+    {"id":"sp_ult","name":"融资融券","desc":"大招能量获取 +30%","flag":"ultCharge","max":2},
+    {"id":"sp_vamp","name":"割肉补仓","desc":"击杀有 4% 概率恢复 1 点生命","flag":"vamp","max":2},
+    {"id":"sp_analyst","name":"舆论引导","desc":"韭菜反进化研究速度 -25%","flag":"analyst","max":2},
+    {"id":"sp_reset","name":"市场教育","desc":"立即让所有韭菜进化路线降低 1 级","flag":"resetEvo","max":99}
+  ],
+  "ultimates":[
+    {"id":"reaper","name":"死神降临","desc":"全屏范围镰刀攻击","price":0},
+    {"id":"gold_storm","name":"金币风暴","desc":"全屏掉落金币并造成伤害","price":1500},
+    {"id":"black_devour","name":"黑洞吞噬","desc":"吸引并吞噬普通韭菜","price":2000},
+    {"id":"thunder","name":"雷神审判","desc":"全屏多段闪电攻击","price":1500},
+    {"id":"hellfire","name":"地狱火海","desc":"大范围火焰爆炸","price":1800},
+    {"id":"timefreeze","name":"时空冻结","desc":"冻结所有普通韭菜","price":1800},
+    {"id":"blades","name":"万刃归宗","desc":"召唤大量镰刀攻击敌人","price":2500},
+    {"id":"final","name":"终极收割","desc":"对普通韭菜进行大规模即死收割","price":6000}
+  ]
+}

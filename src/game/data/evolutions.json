@@ -1,0 +1,38 @@
+{
+  "weapons":[
+    {"base":"scythe","passive":"greed_heart","result":"golden_reaper","effect":"击杀掉落额外金币"},
+    {"base":"whirl","passive":"storm_core","result":"calamity","effect":"大范围持续吸附和切割"},
+    {"base":"lightning","passive":"thunder_rune","result":"thor","effect":"连锁闪电自动扩散"},
+    {"base":"fire","passive":"heat_core","result":"hell","effect":"大面积燃烧"},
+    {"base":"frost","passive":"perma_crystal","result":"zero","effect":"大范围冻结"},
+    {"base":"blackhole","passive":"void_core","result":"void_eater","effect":"吸收普通韭菜"},
+    {"base":"laser","passive":"optic_core","result":"sun","effect":"多方向持续激光"},
+    {"base":"twin","passive":"clone_rune","result":"blade_storm","effect":"大量镰刀环绕"},
+    {"base":"chainsaw","passive":"power_core","result":"mech_reaper","effect":"超高速旋转切割"},
+    {"base":"boomerang","passive":"return_rune","result":"eternal","effect":"多把镰刀无限穿梭"}
+  ],
+  "combos":[
+    {"id":"thunder_hole","name":"雷霆黑洞","a":["blackhole","void_eater"],"b":["lightning","thor"],"desc":"黑洞中心不断向周围释放连锁闪电。"},
+    {"id":"flame_storm","name":"烈焰风暴","a":["fire","hell"],"b":["whirl","calamity"],"desc":"旋风沿途引燃韭菜并留下火区。"},
+    {"id":"frost_beam","name":"极寒光束","a":["frost","zero"],"b":["laser","sun"],"desc":"激光会减速并有几率冻结命中的韭菜。"},
+    {"id":"golden_blades","name":"黄金万刃","a":["golden_reaper"],"b":["blade_storm"],"desc":"环绕镰刀变成纯金，切割时持续溅出金币。"},
+    {"id":"cosmic","name":"宇宙收割机","a":["void_eater"],"b":["calamity"],"desc":"周期性引发全屏引力坍缩，吸附并重创屏幕内所有敌人。"}
+  ],
+  "levels":[
+    {"name":"适应","resist":0.18,"hp":0,"mutChance":0.45},
+    {"name":"强化","resist":0.32,"hp":0.2,"mutChance":0.65},
+    {"name":"变异","resist":0.5,"hp":0.35,"mutChance":0.85},
+    {"name":"觉醒","resist":0.72,"hp":0.5,"mutChance":1}
+  ],
+  "lines":[
+    {"id":"melee","name":"钢铁韭菜","trigger":"近战","tint":"0xa8b4c4","weak":"lightning","behavior":"Lv3 起不受击退，近战命中有几率反伤","research":"检测到收割者依赖近战，韭菜正在研究钢铁外壳。","done":"警告：韭菜联合会已经完成钢铁外壳研发！"},
+    {"id":"ranged","name":"装甲韭菜","trigger":"远程","tint":"0x8a7f5a","weak":"fire","behavior":"Lv3 起投射物穿透消耗翻倍","research":"韭菜正在给自己缝防弹衣，远程火力遇到新挑战。","done":"警告：韭菜联合会已经完成复合装甲研发！"},
+    {"id":"fire","name":"耐火韭菜","trigger":"火焰","tint":"0xff9248","weak":"frost","behavior":"Lv3 起免疫点燃，受火焰攻击时反而加速","research":"检测到收割者长期使用火焰，韭菜正在研究阻燃涂层。","done":"警告：韭菜联合会已经完成耐火技术研发！"},
+    {"id":"lightning","name":"绝缘韭菜","trigger":"闪电","tint":"0xf2d84a","weak":"fire","behavior":"Lv3 起减少连锁跳数，精英展开电磁屏障，BOSS 反射闪电","research":"检测到收割者长期使用闪电攻击，韭菜正在研究绝缘材料。","done":"警告：普通韭菜已经长出了绝缘外壳！"},
+    {"id":"frost","name":"热能韭菜","trigger":"冰霜","tint":"0xff5a5a","weak":"void","behavior":"减少减速和冻结时间，Lv3 起免疫冻结","research":"韭菜开始集体泡温泉，冰霜效果正在减弱。","done":"警告：韭菜联合会已经完成恒温系统研发！"},
+    {"id":"void","name":"反重力韭菜","trigger":"黑洞","tint":"0xc27bff","weak":"ranged","behavior":"减少吸附效果，Lv3 起被吸附时会主动挣脱冲刺","research":"韭菜正在研读广义相对论，引力开始对它们失效。","done":"警告：韭菜联合会已经完成反重力研发！"},
+    {"id":"moving","name":"预判韭菜","trigger":"高频移动","tint":"0x62e3e3","weak":"","behavior":"提前拦截玩家路线，Lv3 起从你的前进方向包抄","research":"韭菜正在分析你的走位数据，请注意前方。","done":"警告：韭菜已掌握你的跑路路线！"},
+    {"id":"camping","name":"自爆韭菜","trigger":"长时间停留","tint":"0xff4f8b","weak":"","behavior":"派出靠近后自爆的韭菜，Lv3 起爆炸范围扩大","research":"你在这里站太久了，韭菜正在给自己绑炸药。","done":"警告：韭菜敢死队已经组建完毕！"}
+  ],
+  "chatter":["韭菜已经开始怀疑人生。","韭菜联合会宣布进入紧急状态。","你被列入韭菜保护协会黑名单。","韭菜正在研究如何让镰刀失业。","你的收割行为已经引起韭菜社会高度关注。"]
+}
