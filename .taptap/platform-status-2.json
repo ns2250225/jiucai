@@ -1,0 +1,121 @@
+{
+  "ok": true,
+  "data": {
+    "result": {
+      "fields": {
+        "app_platforms": {
+          "current_value": [
+            "MOBILE",
+            "PC_OFFICIAL"
+          ],
+          "field_id": "app_platforms",
+          "filled": true,
+          "input_type": "select",
+          "label": "发布平台",
+          "options": [
+            "MOBILE",
+            "PC_OFFICIAL"
+          ],
+          "state": "required",
+          "value_labels": {
+            "MOBILE": "手机",
+            "PC_OFFICIAL": "电脑端-官方下载"
+          }
+        },
+        "itunes_id": {
+          "constraints": {
+            "max_length": 18,
+            "pattern_hint": "须为最多 18 位 Apple ID 数字"
+          },
+          "field_id": "itunes_id",
+          "filled": false,
+          "input_type": "text",
+          "label": "App Store ID",
+          "state": "optional"
+        },
+        "region_flag_android": {
+          "current_value": 1,
+          "field_id": "region_flag_android",
+          "filled": true,
+          "input_type": "select",
+          "label": "Android 发布状态",
+          "options": [
+            "1",
+            "3",
+            "4"
+          ],
+          "state": "required",
+          "value_labels": {
+            "1": "敬请期待",
+            "3": "预约",
+            "4": "提供游玩"
+          }
+        },
+        "region_flag_ios": {
+          "current_value": 1,
+          "field_id": "region_flag_ios",
+          "filled": true,
+          "input_type": "select",
+          "label": "iOS 发布状态",
+          "options": [
+            "1",
+            "3",
+            "0"
+          ],
+          "state": "required",
+          "value_labels": {
+            "0": "提供游玩",
+            "1": "敬请期待",
+            "3": "预约"
+          }
+        },
+        "region_flag_pc": {
+          "current_value": 1,
+          "field_id": "region_flag_pc",
+          "filled": true,
+          "input_type": "select",
+          "label": "Windows 发布状态",
+          "options": [
+            "1",
+            "3",
+            "4"
+          ],
+          "state": "required",
+          "value_labels": {
+            "1": "敬请期待",
+            "3": "预约",
+            "4": "提供游玩"
+          }
+        },
+        "steam_id": {
+          "constraints": {
+            "pattern_hint": "须为 Steam 数字 ID"
+          },
+          "field_id": "steam_id",
+          "filled": false,
+          "input_type": "text",
+          "label": "Steam ID",
+          "state": "optional"
+        }
+      },
+      "module_id": "platform-status",
+      "revision": 1220318
+    },
+    "status": "completed"
+  },
+  "meta": {
+    "catalog": {
+      "source_version": "1.0.66",
+      "digest": "sha256:c464ff4fdcc7810562d803f4ca3e117ae18713252dc899ca1419f10f01e4fc1e",
+      "loaded_from": "embedded"
+    }
+  },
+  "_notice": {
+    "update_check": {
+      "command": "taptap-cli update --check --json",
+      "message": "Automatic update check could not complete; run: taptap-cli update --check --json",
+      "reason": "timeout",
+      "status": "unavailable"
+    }
+  }
+}

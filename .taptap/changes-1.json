@@ -1,0 +1,120 @@
+{
+ "changes": [
+  {
+   "field_id": "description",
+   "value": "你是一名神秘的韭菜收割者，手持一把可以不断进化的镰刀，闯入一片又一片韭菜田。\n\n《韭菜收割者》是一款像素风 Roguelike 割草生存游戏：走位躲避、自动攻击，在成百上千根韭菜中杀出血路，用经验和金币构建属于自己的收割流派。\n\n◆ 爽快割草：同屏海量韭菜，近战挥砍、飞旋镰刀、连锁闪电、火焰地带、黑洞聚怪，12 把基础镰刀各有手感。\n◆ 镰刀进化：武器满级后搭配指定被动即可进化——普通镰刀+贪婪之心=黄金收割者，闪电镰刀+雷电符文=雷神审判……10 种进化形态与组合羁绊等你发现。\n◆ 韭菜会反抗：它们不是普通的靶子。韭菜会观察你的战斗方式，逐渐获得抗性、组织防御，甚至发动「韭菜起义」。35 种韭菜、7 大 BOSS，各有脾气。\n◆ 市场荒诞剧：牛市收割场、熊市深渊、神秘庄家、天降金币、强制平仓……24 种随机事件把金融市场的悲喜搬进战场。\n◆ 局外成长：6 名角色、永久强化商店、皮肤、称号、成就与韭菜图鉴，每一局都让你变得更强。\n\n单局 10~15 分钟，支持键盘与触屏虚拟摇杆。现在，让每一根韭菜都实现自己的价值。",
+   "expected": []
+  },
+  {
+   "field_id": "icon",
+   "value": {
+    "url": "https://img-tc.tapimg.com/market/images/2da8013572ae045b4cec85afd663eb42.png",
+    "info": {
+     "width": 512,
+     "height": 512,
+     "size": 99079,
+     "format": "png"
+    }
+   },
+   "expected": "https://img-tc.tapimg.com/market/images/ef4719159691d7db73760cadfc67eac4.png"
+  },
+  {
+   "field_id": "banner_4",
+   "value": {
+    "url": "https://img-tc.tapimg.com/market/images/25e9b891c4e00cca245efd3fa9b59f00.png",
+    "info": {
+     "width": 1920,
+     "height": 1080,
+     "size": 542969,
+     "format": "png"
+    }
+   },
+   "expected": []
+  },
+  {
+   "field_id": "square_promo_image",
+   "value": {
+    "url": "https://img-tc.tapimg.com/market/images/65e933ae558ca574b6b548dd408d3563.png",
+    "info": {
+     "width": 1440,
+     "height": 1440,
+     "size": 527137,
+     "format": "png"
+    }
+   },
+   "expected": []
+  },
+  {
+   "field_id": "screenshots",
+   "op": "append",
+   "value": [
+    {
+     "url": "https://img-tc.tapimg.com/market/images/3bec4c5709b37a448bc7f1c35e2c4109.png",
+     "info": {
+      "width": 1920,
+      "height": 1080,
+      "size": 63551,
+      "format": "png"
+     }
+    },
+    {
+     "url": "https://img-tc.tapimg.com/market/images/643446eb2a66157310c5cd61556531ca.png",
+     "info": {
+      "width": 1920,
+      "height": 1080,
+      "size": 90218,
+      "format": "png"
+     }
+    },
+    {
+     "url": "https://img-tc.tapimg.com/market/images/1a7f53e7612f61c71aac62e9bef5fb8e.png",
+     "info": {
+      "width": 1920,
+      "height": 1080,
+      "size": 71026,
+      "format": "png"
+     }
+    },
+    {
+     "url": "https://img-tc.tapimg.com/market/images/cad0b42362a87a30be002e555331ddb4.png",
+     "info": {
+      "width": 1920,
+      "height": 1080,
+      "size": 98578,
+      "format": "png"
+     }
+    },
+    {
+     "url": "https://img-tc.tapimg.com/market/images/febffbe573dc29eaacfca68febd81467.png",
+     "info": {
+      "width": 1920,
+      "height": 1080,
+      "size": 88615,
+      "format": "png"
+     }
+    }
+   ],
+   "expected": []
+  },
+  {
+   "field_id": "gameplay_demo_video",
+   "value": 6061806,
+   "expected": []
+  },
+  {
+   "field_id": "developer_message",
+   "value": "大家好，我们是马仔游戏工作室。\n\n做这款游戏的初衷很简单：在市场里，我们都当过韭菜。与其被收割，不如反过来当一次收割者——于是有了这款荒诞又爽快的割草游戏。\n\n游戏里的韭菜并不是靶子。它们会观察你的打法、学习你的套路，慢慢学会抱团、格挡，甚至揭竿而起。你越强，它们越机灵。我们希望这种「斗智斗勇」的拉扯感能让你会心一笑。\n\n游戏的全部像素美术由代码在运行时生成，没有使用一张外部图片；所有数值都以数据表驱动，方便持续调优平衡。如果你玩到了什么奇怪的流派，欢迎在评论区告诉我们。\n\n祝收割愉快。",
+   "expected": []
+  },
+  {
+   "field_id": "promotion_text",
+   "value": "韭菜也是有脾气的，这一茬你说了算",
+   "expected": []
+  },
+  {
+   "field_id": "promotion_material_type",
+   "value": "BANNER_4",
+   "expected": []
+  }
+ ]
+}

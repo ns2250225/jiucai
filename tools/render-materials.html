@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>body{margin:0;background:#222}canvas{image-rendering:pixelated;display:block}</style>
+</head>
+<body>
+<canvas id="iconS" width="128" height="128"></canvas>
+<canvas id="icon" width="512" height="512"></canvas>
+<canvas id="bannerS" width="480" height="270"></canvas>
+<canvas id="banner" width="1920" height="1080"></canvas>
+<canvas id="squareS" width="180" height="180"></canvas>
+<canvas id="square" width="1440" height="1440"></canvas>
+<canvas id="covervS" width="200" height="300"></canvas>
+<canvas id="coverv" width="1200" height="1800"></canvas>
+<script>
+const C = {
+  grass: '#4f9a4a', grassDark: '#468b41', grassLight: '#5aa654', grassDot: '#5fa55b',
+  robe: '#23262e', robeDark: '#14171d', robeLight: '#343a45',
+  face: '#0c0f14', eye: '#eef6ff',
+  blade: '#dde3e8', bladeShade: '#a9b4bc', handle: '#8a5a33', handleDark: '#66411f',
+  stalk: '#7cc84e', stalkDark: '#569f36', stalkLight: '#9add70',
+  bulb: '#f4f7ee', bulbShade: '#cdd8c4',
+  gold: '#f2b53a', goldDark: '#b57e14', goldLight: '#ffd97a',
+  gem: '#69d85a', gemDark: '#3aa844'
+};
+// 所有绘制都在低分辨率画布上（1 单位 = 1 像素），最后整体最近邻放大
+function painter(ctx) {
+  return {
+    px(x, y, w, h, c) { ctx.fillStyle = c; ctx.fillRect(x, y, w, h); },
+    ctx
+  };
+}
+// 画布放大（最近邻）
+function upscale(srcId, dstId) {
+  const s = document.getElementById(srcId), d = document.getElementById(dstId);
+  const c = d.getContext('2d');
+  c.imageSmoothingEnabled = false;
+  c.clearRect(0, 0, d.width, d.height);
+  c.drawImage(s, 0, 0, d.width, d.height);
+}
+
+// ---------- 韭菜 ----------
+function drawLeek(P, cx, cy, h, s, scared, dir, phase) {
+  const w = Math.max(3, Math.round(h * 0.34 * s)); // 茎宽
+  const bulbH = Math.max(4, Math.round(h * 0.3)), stalkH = h - bulbH;
+  const topY = cy - h;
+  const sway = Math.round(Math.sin(phase) * 1.2 * s) * dir;
+  // 叶臂
+  const armY = topY + (stalkH * 0.28 | 0);
+  P.px(cx - w - 1 + sway, armY, Math.max(2, w * 0.6 | 0), 2, C.stalkDark);
+  P.px(cx + (w >> 1) - sway, armY - 2, Math.max(2, w * 0.6 | 0), 2, C.stalkDark);
+  // 茎
+  P.px(cx - (w >> 1) + (sway >> 1), topY, w, stalkH, C.stalk);
+  P.px(cx - (w >> 1) + (sway >> 1), topY, Math.max(1, w * 0.3 | 0), stalkH, C.stalkLight);
+  // 顶叶
+  P.px(cx - (w * 0.15 | 0) + sway, topY - 2 * s - 2, Math.max(2, w * 0.32 | 0), 2 * s + 2, C.stalkDark);
+  P.px(cx - (w * 0.6 | 0) + (sway * 1.2 | 0), topY - s, Math.max(2, w * 0.4 | 0), s + 2, C.stalk);
+  P.px(cx + (w * 0.22 | 0) - (sway * 1.2 | 0), topY - s - 1, Math.max(2, w * 0.4 | 0), s + 3, C.stalkDark);
+  // 球茎：近似圆柱，轻微下收
+  const bwTop = Math.round(w * 1.18), bwBot = Math.round(w * 0.98), by = cy - bulbH;
+  for (let r = 0; r < bulbH; r++) {
+    const bw = Math.round(bwTop + (bwBot - bwTop) * r / bulbH);
+    P.px(cx - (bw >> 1), by + r, bw, 1, r >= bulbH - 2 ? C.bulbShade : C.bulb);
+  }
+  // 右侧阴影
+  P.px(cx + (bwTop >> 1) - 1, by + 1, 2, Math.max(1, bulbH - 3), C.bulbShade);
+  // 根须
+  P.px(cx - 2, cy, 1, 2, C.bulbShade); P.px(cx + 2, cy, 1, 2, C.bulbShade);
+  // 脸
+  const fy = by + (bulbH * 0.42 | 0), off = dir > 0 ? 1 : -1;
+  const ex = Math.max(2, w * 0.24 | 0);
+  if (scared) {
+    P.px(cx - ex - off, fy, 2, 2, C.face);
+    P.px(cx + ex + off, fy, 2, 2, C.face);
+    P.px(cx - 1 + off, fy + 3, 2, 2, C.face);
+  } else {
+    P.px(cx - ex, fy, 1, 2, C.face); P.px(cx + ex, fy, 1, 2, C.face);
+    P.px(cx - 1, fy + 3, 3, 1, C.face);
+  }
+}
+
+// ---------- 收割者（手持镰刀，几何显式） ----------
+// 身体在 cx 底部 cy，高 h；镰刀柄从手部指向 (tipx,tipy)，刃月牙在柄端
+function drawReaper(P, cx, cy, h, dir, tipx, tipy) {
+  const w = Math.round(h * 0.6), topY = cy - h;
+  // 兜帽
+  P.px(cx - (w * 0.32 | 0), topY, w * 0.64 | 0, h * 0.3 | 0, C.robe);
+  P.px(cx - (w * 0.32 | 0), topY, Math.max(2, w * 0.16 | 0), h * 0.3 | 0, C.robeLight);
+  P.px(cx - (w * 0.22 | 0), topY + (h * 0.08 | 0), w * 0.44 | 0, h * 0.17 | 0, C.face);
+  P.px(cx - (w * 0.12 | 0) + dir, topY + (h * 0.14 | 0), Math.max(2, w * 0.1 | 0), 2, C.eye);
+  P.px(cx + (w * 0.06 | 0) + dir, topY + (h * 0.14 | 0), Math.max(2, w * 0.1 | 0), 2, C.eye);
+  // 身袍
+  P.px(cx - (w * 0.38 | 0), topY + (h * 0.28 | 0), w * 0.76 | 0, h * 0.6 | 0, C.robe);
+  P.px(cx - (w * 0.38 | 0), topY + (h * 0.28 | 0), Math.max(2, w * 0.15 | 0), h * 0.6 | 0, C.robeLight);
+  P.px(cx - (w * 0.44 | 0), cy - (h * 0.12 | 0), w * 0.88 | 0, h * 0.12 | 0, C.robeDark);
+  // 手臂朝向手部
+  const hx = cx + dir * (w * 0.42 | 0), hy = topY + (h * 0.4 | 0);
+  P.px(Math.min(cx, hx), hy - 1, Math.abs(hx - cx) + 2, 3, C.robe);
+  // 柄：手 → 柄端
+  const steps = Math.max(8, Math.hypot(tipx - hx, tipy - hy) | 0);
+  for (let i = 0; i <= steps; i++) {
+    const t = i / steps;
+    const x = Math.round(hx + (tipx - hx) * t), y = Math.round(hy + (tipy - hy) * t);
+    P.px(x - 1, y - 1, 3, 3, i % 4 ? C.handle : C.handleDark);
+  }
+  return { hx, hy };
+}
+// 月牙刃：实心填充（外弧 rOut，内弧 rIn，绕 (bx,by)，角度 a0→a1）
+function drawBlade(P, bx, by, rOut, rIn, a0, a1, flip) {
+  const ctx = P.ctx;
+  const f = flip ? -1 : 1;
+  ctx.beginPath();
+  for (let i = 0; i <= 40; i++) {
+    const a = a0 + (a1 - a0) * (i / 40);
+    const x = bx + Math.cos(a) * rOut * f, y = by + Math.sin(a) * rOut;
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  for (let i = 40; i >= 0; i--) {
+    const a = a0 + (a1 - a0) * (i / 40);
+    ctx.lineTo(bx + Math.cos(a) * rIn * f, by + Math.sin(a) * rIn);
+  }
+  ctx.closePath();
+  ctx.fillStyle = C.blade; ctx.fill();
+  // 下缘阴影
+  ctx.beginPath();
+  for (let i = 0; i <= 40; i++) {
+    const a = a0 + (a1 - a0) * (i / 40);
+    const x = bx + Math.cos(a) * (rOut - 2) * f, y = by + Math.sin(a) * (rOut - 2);
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  for (let i = 40; i >= 0; i--) {
+    const a = a0 + (a1 - a0) * (i / 40);
+    ctx.lineTo(bx + Math.cos(a) * (rOut - 4.5) * f, by + Math.sin(a) * (rOut - 4.5));
+  }
+  ctx.closePath();
+  ctx.fillStyle = C.bladeShade; ctx.fill();
+  // 根部箍环
+  ctx.beginPath();
+  ctx.arc(bx + Math.cos(a0) * (rIn - 1) * f, by + Math.sin(a0) * (rIn - 1), 3.2, 0, 7);
+  ctx.fillStyle = C.handleDark; ctx.fill();
+}
+// 弧光：实心细月牙
+function drawSlash(P, cx, cy, r, a0, a1, alpha) {
+  const ctx = P.ctx;
+  ctx.save(); ctx.globalAlpha = alpha;
+  ctx.beginPath();
+  for (let i = 0; i <= 48; i++) {
+    const a = a0 + (a1 - a0) * (i / 48);
+    const x = cx + Math.cos(a) * r, y = cy + Math.sin(a) * r;
+    i ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+  }
+  for (let i = 48; i >= 0; i--) {
+    const a = a0 + (a1 - a0) * (i / 48);
+    const rr = r - 5 - 3 * Math.sin(Math.PI * i / 48);
+    ctx.lineTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr);
+  }
+  ctx.closePath();
+  ctx.fillStyle = '#eef7ff'; ctx.fill();
+  ctx.restore();
+}
+function drawCoin(P, x, y, r) {
+  P.px(x - r, y - r, r * 2, r * 2, C.goldDark);
+  P.px(x - r + 1, y - r + 1, r * 2 - 2, r * 2 - 2, C.gold);
+  P.px(x - (r >> 1), y - (r >> 1), Math.max(1, r >> 1), r, C.goldLight);
+}
+function drawGem(P, x, y, r) {
+  for (let row = -r; row <= r; row++) {
+    const wdt = Math.max(1, (r * 2 - Math.abs(row) * 1.6) | 0);
+    P.px(x - (wdt >> 1), y + row, wdt, 1, row < 0 ? C.gem : C.gemDark);
+  }
+  P.px(x - 1, y - (r >> 1), 1, r, '#c8f5bd');
+}
+function drawFence(P, x, y, w) {
+  P.px(x, y, w, 2, '#a8763e'); P.px(x, y + 6, w, 2, '#a8763e');
+  P.px(x + 2, y - 3, 3, 12, '#8a5a33'); P.px(x + w - 5, y - 3, 3, 12, '#8a5a33');
+}
+function field(P, gw, gh, horizonY) {
+  P.px(0, 0, gw, gh, C.grass);
+  for (let y = horizonY; y < gh; y += 9) P.px(0, y, gw, 3, C.grassDark);
+  let seed = 7;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < gw * 3; i++) {
+    P.px(rnd() * gw | 0, horizonY + rnd() * (gh - horizonY) | 0, 1, 1, rnd() > 0.5 ? C.grassDot : C.grassLight);
+  }
+}
+function vignette(ctx, w, h, strength) {
+  const v = ctx.createRadialGradient(w / 2, h / 2, Math.min(w, h) * 0.36, w / 2, h / 2, Math.max(w, h) * 0.72);
+  v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, `rgba(8,18,10,${strength})`);
+  ctx.fillStyle = v; ctx.fillRect(0, 0, w, h);
+}
+
+// ---------- 图标 ----------
+{
+  const S = document.getElementById('iconS').getContext('2d');
+  const P = painter(S);
+  // 背景渐变
+  const g = S.createRadialGradient(64, 58, 8, 64, 64, 82);
+  g.addColorStop(0, '#43874a'); g.addColorStop(1, '#224528');
+  S.fillStyle = g; S.fillRect(0, 0, 128, 128);
+  let seed = 5;
+  const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  for (let i = 0; i < 70; i++) P.px(rnd() * 128 | 0, rnd() * 128 | 0, 1, 1, 'rgba(255,255,255,0.05)');
+  // 弧光（镰刀扫过的轨迹）
+  drawSlash(P, 58, 62, 46, -2.5, -0.7, 0.55);
+  drawSlash(P, 58, 62, 38, -2.35, -0.85, 0.3);
+  // 死神（左下，举镰向右上）
+  const { hx, hy } = drawReaper(P, 40, 118, 62, 1, 88, 34);
+  // 刃月牙在柄端，向下弯扫
+  drawBlade(P, 88, 34, 30, 25, 0.5, 2.35, false);
+  // 大韭菜（右侧，惊恐奔逃）
+  drawLeek(P, 96, 118, 46, 1, true, -1, 0.6);
+  drawLeek(P, 76, 126, 30, 1, true, -1, 1.4);
+  // 掉落物
+  drawCoin(P, 20, 122, 5); drawCoin(P, 34, 128, 4); drawGem(P, 112, 122, 5);
+  upscale('iconS', 'icon');
+  vignette(document.getElementById('icon').getContext('2d'), 512, 512, 0.5);
+}
+
+// ---------- 横版宣传图 ----------
+function bannerScene() {
+  const BS = document.getElementById('bannerS').getContext('2d');
+  const P = painter(BS);
+  field(P, 480, 270, 10);
+  drawFence(P, 26, 64, 36); drawFence(P, 410, 58, 40);
+  // 稻草人
+  P.px(452, 32, 3, 24, '#8a5a33'); P.px(442, 34, 23, 3, '#8a5a33');
+  P.px(446, 24, 12, 10, '#b3843f'); P.px(448, 16, 8, 8, '#d9b56a'); P.px(450, 19, 4, 2, C.face);
+  // 弧光
+  drawSlash(P, 190, 152, 70, -2.5, -0.55, 0.55);
+  drawSlash(P, 190, 152, 56, -2.3, -0.75, 0.28);
+  // 收割者（左中，大）
+  drawReaper(P, 148, 236, 120, 1, 236, 68);
+  drawBlade(P, 236, 68, 56, 47, 0.35, 2.15, false);
+  // 韭菜群
+  drawLeek(P, 320, 232, 56, 1.5, true, -1, 0.2);
+  drawLeek(P, 388, 248, 70, 1.9, true, -1, 0.9);
+  drawLeek(P, 442, 230, 48, 1.3, true, -1, 1.5);
+  drawLeek(P, 280, 256, 40, 1.1, true, -1, 2.0);
+  drawLeek(P, 40, 258, 36, 1, true, 1, 0.6);
+  drawLeek(P, 84, 270, 46, 1.25, true, 1, 1.3);
+  drawLeek(P, 258, 272, 30, 0.85, true, -1, 0.1);
+  // 掉落物
+  drawCoin(P, 216, 252, 8); drawCoin(P, 242, 264, 6); drawCoin(P, 196, 266, 5); drawCoin(P, 356, 268, 6);
+  drawGem(P, 272, 254, 7); drawGem(P, 128, 260, 6); drawGem(P, 332, 260, 7); drawGem(P, 400, 272, 5);
+  upscale('bannerS', 'banner');
+  // 全分辨率绘制标题（仅游戏名）
+  const ctx = document.getElementById('banner').getContext('2d');
+  ctx.save();
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  const cx = 960, cy = 150, size = 150;
+  ctx.font = `900 ${size}px "Microsoft YaHei", "PingFang SC", sans-serif`;
+  ctx.direction = 'ltr';
+  ctx.lineJoin = 'round';
+  ctx.shadowColor = 'rgba(12,26,12,0.85)'; ctx.shadowBlur = 24; ctx.shadowOffsetY = 10;
+  ctx.lineWidth = 30; ctx.strokeStyle = '#16310f';
+  ctx.strokeText('韭菜收割者', cx, cy);
+  ctx.shadowColor = 'transparent';
+  const g2 = ctx.createLinearGradient(0, cy - size * 0.6, 0, cy + size * 0.6);
+  g2.addColorStop(0, '#fff6c8'); g2.addColorStop(0.45, '#ffd257'); g2.addColorStop(1, '#f09a1e');
+  ctx.fillStyle = g2;
+  ctx.fillText('韭菜收割者', cx, cy);
+  ctx.restore();
+  vignette(ctx, 1920, 1080, 0.45);
+}
+bannerScene();
+
+// ---------- 1:1 方图 ----------
+{
+  const SS = document.getElementById('squareS').getContext('2d');
+  const P = painter(SS);
+  field(P, 180, 180, 8);
+  drawFence(P, 8, 56, 30); drawFence(P, 142, 50, 32);
+  drawSlash(P, 88, 104, 56, -2.3, -0.5, 0.55);
+  drawReaper(P, 66, 158, 88, 1, 128, 72);
+  drawBlade(P, 128, 72, 40, 33, 0.4, 2.2, false);
+  drawLeek(P, 124, 150, 40, 1.25, true, -1, 0.5);
+  drawLeek(P, 150, 136, 28, 0.9, true, -1, 1.3);
+  drawLeek(P, 34, 164, 30, 0.95, true, 1, 0.8);
+  drawCoin(P, 96, 168, 6); drawCoin(P, 114, 176, 5); drawGem(P, 140, 172, 5); drawGem(P, 58, 176, 4);
+  upscale('squareS', 'square');
+  const ctx = document.getElementById('square').getContext('2d');
+  ctx.save();
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.font = `900 96px "Microsoft YaHei", sans-serif`;
+  ctx.lineJoin = 'round';
+  ctx.shadowColor = 'rgba(12,26,12,0.85)'; ctx.shadowBlur = 16; ctx.shadowOffsetY = 7;
+  ctx.lineWidth = 20; ctx.strokeStyle = '#16310f';
+  ctx.strokeText('韭菜收割者', 720, 128);
+  ctx.shadowColor = 'transparent';
+  const g2 = ctx.createLinearGradient(0, 60, 0, 200);
+  g2.addColorStop(0, '#fff6c8'); g2.addColorStop(0.45, '#ffd257'); g2.addColorStop(1, '#f09a1e');
+  ctx.fillStyle = g2; ctx.fillText('韭菜收割者', 720, 128);
+  ctx.restore();
+  vignette(ctx, 1440, 1440, 0.45);
+}
+
+// ---------- 竖版封面 1200x1800 (200格 x6) ----------
+{
+  const CV = document.getElementById('covervS').getContext('2d');
+  const P = painter(CV);
+  field(P, 200, 300, 8);
+  drawFence(P, 10, 84, 30); drawFence(P, 160, 76, 30);
+  // 稻草人
+  P.px(178, 62, 3, 22, '#8a5a33'); P.px(170, 66, 20, 3, '#8a5a33');
+  P.px(173, 52, 10, 9, '#b3843f'); P.px(175, 46, 6, 6, '#d9b56a');
+  // 弧光
+  drawSlash(P, 96, 158, 62, -2.4, -0.6, 0.55);
+  drawSlash(P, 96, 158, 50, -2.2, -0.8, 0.28);
+  // 收割者
+  drawReaper(P, 76, 240, 92, 1, 132, 116);
+  drawBlade(P, 132, 116, 44, 36, 0.5, 2.3, false);
+  // 韭菜群
+  drawLeek(P, 148, 246, 44, 1.25, true, -1, 0.4);
+  drawLeek(P, 176, 226, 30, 0.9, true, -1, 1.2);
+  drawLeek(P, 30, 262, 32, 0.95, true, 1, 0.8);
+  drawLeek(P, 112, 278, 36, 1.05, true, -1, 0.1);
+  drawLeek(P, 56, 288, 30, 0.9, true, 1, 1.5);
+  // 掉落物
+  drawCoin(P, 96, 268, 6); drawCoin(P, 116, 282, 5); drawGem(P, 146, 276, 6); drawGem(P, 72, 276, 5); drawCoin(P, 22, 292, 5);
+  upscale('covervS', 'coverv');
+  const ctx = document.getElementById('coverv').getContext('2d');
+  ctx.save();
+  ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.font = `900 128px "Microsoft YaHei", sans-serif`;
+  ctx.lineJoin = 'round';
+  ctx.shadowColor = 'rgba(12,26,12,0.85)'; ctx.shadowBlur = 20; ctx.shadowOffsetY = 9;
+  ctx.lineWidth = 26; ctx.strokeStyle = '#16310f';
+  ctx.strokeText('韭菜收割者', 600, 170);
+  ctx.shadowColor = 'transparent';
+  const g3 = ctx.createLinearGradient(0, 90, 0, 250);
+  g3.addColorStop(0, '#fff6c8'); g3.addColorStop(0.45, '#ffd257'); g3.addColorStop(1, '#f09a1e');
+  ctx.fillStyle = g3; ctx.fillText('韭菜收割者', 600, 170);
+  ctx.restore();
+  vignette(ctx, 1200, 1800, 0.45);
+}
+window.RENDER_DONE = true;
+</script>
+</body>
+</html>

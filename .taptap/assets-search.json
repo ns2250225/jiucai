@@ -1,0 +1,3270 @@
+{
+  "ok": true,
+  "data": {
+    "result": {
+      "missing": [],
+      "results": [
+        {
+          "list": [
+            {
+              "asset_id": 766445,
+              "format": "png",
+              "height": 1440,
+              "size": 527137,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1440x1440"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#52A747, #1F232B, #F6B401, #A76C37, #E8EAE7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "hooded reaper with scythe, anthropomorphic leek characters, wooden fences, striped grass background, sickle slashing effect"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful and humorous"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "pixel art illustration of a dark reaper holding a scythe surrounded by cute anthropomorphic leeks"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "75（主体清晰）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/65e933ae558ca574b6b548dd408d3563.png",
+              "width": 1440
+            },
+            {
+              "asset_id": 766441,
+              "format": "png",
+              "height": 512,
+              "size": 99079,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "512x512"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "是"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#2C6B38, #1A1D25, #82E069, #FFFFFF, #96502C"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe weapon, green pixel creatures, pixel gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "mysterious"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "像素风格的持镰刀黑衣死神，旁侧伴随两个绿色小怪和掉落金币"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/2da8013572ae045b4cec85afd663eb42.png",
+              "width": 512
+            },
+            {
+              "asset_id": 766450,
+              "format": "png",
+              "height": 1080,
+              "size": 88615,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C64F, #000000, #FFFFFF, #F7B600, #249624"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe wielding player character, leek-shaped enemies, gold coins, grass field, game HUD"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的暗黑死神风格玩家角色，在像素草地上对抗海量葱形韭菜怪物"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "22/100, Lv 9, 死神降临 69%, 连杀 63, 01:14, 波次 3, 击杀 323, 金币 47, 等级 9, 神秘庄家 11s, 初级收割, 韭菜虽然倒下了，但它的梦想还在。, 69%, 暂停 [ESC], 10"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/febffbe573dc29eaacfca68febd81467.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766449,
+              "format": "png",
+              "height": 1080,
+              "size": 98578,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#73CA5A, #000000, #FFFFFF, #55AAFF, #FF3333"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, radish monsters, scythe, scarecrow, experience crystals, gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "lively"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style reaper character holding a scythe, surrounded by green radish enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "死神降临10s, 神秘庄家29s, 初级收割, 00:56, 波次2, 击杀263, 金币36, 等级8, 神秘庄家, 神秘庄家向你眨了眨眼，你获得随机强力强化!, 庄家的礼物: 伤害 +25%, 冷却 10s, 暂停 [ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/cad0b42362a87a30be002e555331ddb4.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766448,
+              "format": "png",
+              "height": 1080,
+              "size": 71026,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C857, #FFFFFF, #8B4513, #EF4444, #A855F7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe weapon, turnip monster enemies, player character, scarecrow, grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "creature"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "大量白萝卜拟人小怪在绿色草地围攻持镰刀玩家的像素风战斗场景"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "73/100, Lv 7, 死神降临91%, 连杀118, 初级收割, 00:39, 波次2, 击杀166, 金币28, 等级7, 91%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/1a7f53e7612f61c71aac62e9bef5fb8e.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766447,
+              "format": "png",
+              "height": 1080,
+              "size": 90218,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C84F, #FFFFFF, #000000, #F9D328, #9955DD"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding reaper, leek monster horde, sickle slash effect, scarecrow, damage numbers"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style grim reaper character fights against swarms of leek monsters on grass farmland"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "68/100, Lv 4, 死神降临33%, 连杀13, 00:26, 波次1, 击杀61, 金币5, 等级4, 24!, 15, 33%, 暂停 [ESC], 新韭菜：逃跑韭菜, 已收录进韭菜图鉴"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/643446eb2a66157310c5cd61556531ca.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766446,
+              "format": "png",
+              "height": 1080,
+              "size": 63551,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#61AF49, #000000, #FFFFFF, #508C36"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe sweeping effect, radish enemies, pixel grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "casual"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的像素风格小死神，位于画面中心"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "84/100, Lv 2, 死神降临7%, 初级收割, 00:13, 波次1, 击杀13, 金币0, 等级2, 7%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/3bec4c5709b37a448bc7f1c35e2c4109.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766444,
+              "format": "png",
+              "height": 1080,
+              "size": 542969,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "80%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#57A93D, #21252F, #FFB930, #ECECEC, #A16331"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding black character, scythe, cute leek creatures, gold coins, grass field background"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel style black block character holding a scythe, standing in a leek field full of anthropomorphic leek enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/25e9b891c4e00cca245efd3fa9b59f00.png",
+              "width": 1920
+            }
+          ],
+          "recommended_asset_id": 766445,
+          "recommended_reason": "已优先选择更适合作为Icon (512×512)参考图的素材",
+          "target_scene": "icon",
+          "total": 8
+        },
+        {
+          "list": [
+            {
+              "asset_id": 766444,
+              "format": "png",
+              "height": 1080,
+              "size": 542969,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "80%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#57A93D, #21252F, #FFB930, #ECECEC, #A16331"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding black character, scythe, cute leek creatures, gold coins, grass field background"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel style black block character holding a scythe, standing in a leek field full of anthropomorphic leek enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/25e9b891c4e00cca245efd3fa9b59f00.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766450,
+              "format": "png",
+              "height": 1080,
+              "size": 88615,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C64F, #000000, #FFFFFF, #F7B600, #249624"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe wielding player character, leek-shaped enemies, gold coins, grass field, game HUD"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的暗黑死神风格玩家角色，在像素草地上对抗海量葱形韭菜怪物"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "22/100, Lv 9, 死神降临 69%, 连杀 63, 01:14, 波次 3, 击杀 323, 金币 47, 等级 9, 神秘庄家 11s, 初级收割, 韭菜虽然倒下了，但它的梦想还在。, 69%, 暂停 [ESC], 10"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/febffbe573dc29eaacfca68febd81467.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766449,
+              "format": "png",
+              "height": 1080,
+              "size": 98578,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#73CA5A, #000000, #FFFFFF, #55AAFF, #FF3333"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, radish monsters, scythe, scarecrow, experience crystals, gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "lively"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style reaper character holding a scythe, surrounded by green radish enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "死神降临10s, 神秘庄家29s, 初级收割, 00:56, 波次2, 击杀263, 金币36, 等级8, 神秘庄家, 神秘庄家向你眨了眨眼，你获得随机强力强化!, 庄家的礼物: 伤害 +25%, 冷却 10s, 暂停 [ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/cad0b42362a87a30be002e555331ddb4.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766448,
+              "format": "png",
+              "height": 1080,
+              "size": 71026,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C857, #FFFFFF, #8B4513, #EF4444, #A855F7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe weapon, turnip monster enemies, player character, scarecrow, grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "creature"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "大量白萝卜拟人小怪在绿色草地围攻持镰刀玩家的像素风战斗场景"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "73/100, Lv 7, 死神降临91%, 连杀118, 初级收割, 00:39, 波次2, 击杀166, 金币28, 等级7, 91%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/1a7f53e7612f61c71aac62e9bef5fb8e.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766447,
+              "format": "png",
+              "height": 1080,
+              "size": 90218,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C84F, #FFFFFF, #000000, #F9D328, #9955DD"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding reaper, leek monster horde, sickle slash effect, scarecrow, damage numbers"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style grim reaper character fights against swarms of leek monsters on grass farmland"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "68/100, Lv 4, 死神降临33%, 连杀13, 00:26, 波次1, 击杀61, 金币5, 等级4, 24!, 15, 33%, 暂停 [ESC], 新韭菜：逃跑韭菜, 已收录进韭菜图鉴"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/643446eb2a66157310c5cd61556531ca.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766446,
+              "format": "png",
+              "height": 1080,
+              "size": 63551,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#61AF49, #000000, #FFFFFF, #508C36"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe sweeping effect, radish enemies, pixel grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "casual"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的像素风格小死神，位于画面中心"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "84/100, Lv 2, 死神降临7%, 初级收割, 00:13, 波次1, 击杀13, 金币0, 等级2, 7%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/3bec4c5709b37a448bc7f1c35e2c4109.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766445,
+              "format": "png",
+              "height": 1440,
+              "size": 527137,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1440x1440"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#52A747, #1F232B, #F6B401, #A76C37, #E8EAE7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "hooded reaper with scythe, anthropomorphic leek characters, wooden fences, striped grass background, sickle slashing effect"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful and humorous"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "pixel art illustration of a dark reaper holding a scythe surrounded by cute anthropomorphic leeks"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "75（主体清晰）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/65e933ae558ca574b6b548dd408d3563.png",
+              "width": 1440
+            },
+            {
+              "asset_id": 766441,
+              "format": "png",
+              "height": 512,
+              "size": 99079,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "512x512"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "是"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#2C6B38, #1A1D25, #82E069, #FFFFFF, #96502C"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe weapon, green pixel creatures, pixel gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "mysterious"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "像素风格的持镰刀黑衣死神，旁侧伴随两个绿色小怪和掉落金币"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/2da8013572ae045b4cec85afd663eb42.png",
+              "width": 512
+            }
+          ],
+          "recommended_asset_id": 766444,
+          "recommended_reason": "已优先选择更适合作为宣传图 (1920×1080)参考图的素材",
+          "target_scene": "header_banner",
+          "total": 8
+        },
+        {
+          "list": [
+            {
+              "asset_id": 766450,
+              "format": "png",
+              "height": 1080,
+              "size": 88615,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C64F, #000000, #FFFFFF, #F7B600, #249624"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe wielding player character, leek-shaped enemies, gold coins, grass field, game HUD"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的暗黑死神风格玩家角色，在像素草地上对抗海量葱形韭菜怪物"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "22/100, Lv 9, 死神降临 69%, 连杀 63, 01:14, 波次 3, 击杀 323, 金币 47, 等级 9, 神秘庄家 11s, 初级收割, 韭菜虽然倒下了，但它的梦想还在。, 69%, 暂停 [ESC], 10"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/febffbe573dc29eaacfca68febd81467.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766449,
+              "format": "png",
+              "height": 1080,
+              "size": 98578,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#73CA5A, #000000, #FFFFFF, #55AAFF, #FF3333"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, radish monsters, scythe, scarecrow, experience crystals, gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "lively"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style reaper character holding a scythe, surrounded by green radish enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "死神降临10s, 神秘庄家29s, 初级收割, 00:56, 波次2, 击杀263, 金币36, 等级8, 神秘庄家, 神秘庄家向你眨了眨眼，你获得随机强力强化!, 庄家的礼物: 伤害 +25%, 冷却 10s, 暂停 [ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/cad0b42362a87a30be002e555331ddb4.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766448,
+              "format": "png",
+              "height": 1080,
+              "size": 71026,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C857, #FFFFFF, #8B4513, #EF4444, #A855F7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe weapon, turnip monster enemies, player character, scarecrow, grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "creature"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "大量白萝卜拟人小怪在绿色草地围攻持镰刀玩家的像素风战斗场景"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "73/100, Lv 7, 死神降临91%, 连杀118, 初级收割, 00:39, 波次2, 击杀166, 金币28, 等级7, 91%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/1a7f53e7612f61c71aac62e9bef5fb8e.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766447,
+              "format": "png",
+              "height": 1080,
+              "size": 90218,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C84F, #FFFFFF, #000000, #F9D328, #9955DD"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding reaper, leek monster horde, sickle slash effect, scarecrow, damage numbers"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style grim reaper character fights against swarms of leek monsters on grass farmland"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "68/100, Lv 4, 死神降临33%, 连杀13, 00:26, 波次1, 击杀61, 金币5, 等级4, 24!, 15, 33%, 暂停 [ESC], 新韭菜：逃跑韭菜, 已收录进韭菜图鉴"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/643446eb2a66157310c5cd61556531ca.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766446,
+              "format": "png",
+              "height": 1080,
+              "size": 63551,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#61AF49, #000000, #FFFFFF, #508C36"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe sweeping effect, radish enemies, pixel grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "casual"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的像素风格小死神，位于画面中心"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "84/100, Lv 2, 死神降临7%, 初级收割, 00:13, 波次1, 击杀13, 金币0, 等级2, 7%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/3bec4c5709b37a448bc7f1c35e2c4109.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766444,
+              "format": "png",
+              "height": 1080,
+              "size": 542969,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "80%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#57A93D, #21252F, #FFB930, #ECECEC, #A16331"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding black character, scythe, cute leek creatures, gold coins, grass field background"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel style black block character holding a scythe, standing in a leek field full of anthropomorphic leek enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/25e9b891c4e00cca245efd3fa9b59f00.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766441,
+              "format": "png",
+              "height": 512,
+              "size": 99079,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "512x512"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "是"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#2C6B38, #1A1D25, #82E069, #FFFFFF, #96502C"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe weapon, green pixel creatures, pixel gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "mysterious"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "像素风格的持镰刀黑衣死神，旁侧伴随两个绿色小怪和掉落金币"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/2da8013572ae045b4cec85afd663eb42.png",
+              "width": 512
+            },
+            {
+              "asset_id": 766445,
+              "format": "png",
+              "height": 1440,
+              "size": 527137,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1440x1440"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#52A747, #1F232B, #F6B401, #A76C37, #E8EAE7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "hooded reaper with scythe, anthropomorphic leek characters, wooden fences, striped grass background, sickle slashing effect"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful and humorous"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "pixel art illustration of a dark reaper holding a scythe surrounded by cute anthropomorphic leeks"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "75（主体清晰）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/65e933ae558ca574b6b548dd408d3563.png",
+              "width": 1440
+            }
+          ],
+          "recommended_asset_id": 766450,
+          "recommended_reason": "已优先选择更适合作为实机截图 (1280×720)参考图的素材",
+          "target_scene": "screenshot",
+          "total": 8
+        },
+        {
+          "list": [
+            {
+              "asset_id": 766444,
+              "format": "png",
+              "height": 1080,
+              "size": 542969,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "80%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#57A93D, #21252F, #FFB930, #ECECEC, #A16331"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding black character, scythe, cute leek creatures, gold coins, grass field background"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel style black block character holding a scythe, standing in a leek field full of anthropomorphic leek enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/25e9b891c4e00cca245efd3fa9b59f00.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766450,
+              "format": "png",
+              "height": 1080,
+              "size": 88615,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C64F, #000000, #FFFFFF, #F7B600, #249624"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe wielding player character, leek-shaped enemies, gold coins, grass field, game HUD"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的暗黑死神风格玩家角色，在像素草地上对抗海量葱形韭菜怪物"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "22/100, Lv 9, 死神降临 69%, 连杀 63, 01:14, 波次 3, 击杀 323, 金币 47, 等级 9, 神秘庄家 11s, 初级收割, 韭菜虽然倒下了，但它的梦想还在。, 69%, 暂停 [ESC], 10"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/febffbe573dc29eaacfca68febd81467.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766449,
+              "format": "png",
+              "height": 1080,
+              "size": 98578,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#73CA5A, #000000, #FFFFFF, #55AAFF, #FF3333"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, radish monsters, scythe, scarecrow, experience crystals, gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "lively"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style reaper character holding a scythe, surrounded by green radish enemies"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "死神降临10s, 神秘庄家29s, 初级收割, 00:56, 波次2, 击杀263, 金币36, 等级8, 神秘庄家, 神秘庄家向你眨了眨眼，你获得随机强力强化!, 庄家的礼物: 伤害 +25%, 冷却 10s, 暂停 [ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/cad0b42362a87a30be002e555331ddb4.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766448,
+              "format": "png",
+              "height": 1080,
+              "size": 71026,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C857, #FFFFFF, #8B4513, #EF4444, #A855F7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe weapon, turnip monster enemies, player character, scarecrow, grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "creature"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "大量白萝卜拟人小怪在绿色草地围攻持镰刀玩家的像素风战斗场景"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "73/100, Lv 7, 死神降临91%, 连杀118, 初级收割, 00:39, 波次2, 击杀166, 金币28, 等级7, 91%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/1a7f53e7612f61c71aac62e9bef5fb8e.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766447,
+              "format": "png",
+              "height": 1080,
+              "size": 90218,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#72C84F, #FFFFFF, #000000, #F9D328, #9955DD"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "scythe-wielding reaper, leek monster horde, sickle slash effect, scarecrow, damage numbers"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "tense"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "Pixel-style grim reaper character fights against swarms of leek monsters on grass farmland"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "15（主体较弱）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "68/100, Lv 4, 死神降临33%, 连杀13, 00:26, 波次1, 击杀61, 金币5, 等级4, 24!, 15, 33%, 暂停 [ESC], 新韭菜：逃跑韭菜, 已收录进韭菜图鉴"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/643446eb2a66157310c5cd61556531ca.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766446,
+              "format": "png",
+              "height": 1080,
+              "size": 63551,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1920x1080"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "16:9"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "100%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "否"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#61AF49, #000000, #FFFFFF, #508C36"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe sweeping effect, radish enemies, pixel grass field"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "casual"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "character"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "手持镰刀的像素风格小死神，位于画面中心"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "84/100, Lv 2, 死神降临7%, 初级收割, 00:13, 波次1, 击杀13, 金币0, 等级2, 7%, 暂停[ESC]"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/3bec4c5709b37a448bc7f1c35e2c4109.png",
+              "width": 1920
+            },
+            {
+              "asset_id": 766445,
+              "format": "png",
+              "height": 1440,
+              "size": 527137,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "1440x1440"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "是"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "否"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#52A747, #1F232B, #F6B401, #A76C37, #E8EAE7"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "hooded reaper with scythe, anthropomorphic leek characters, wooden fences, striped grass background, sickle slashing effect"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "playful and humorous"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "pixel art illustration of a dark reaper holding a scythe surrounded by cute anthropomorphic leeks"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "75（主体清晰）"
+                },
+                {
+                  "key": "detected_texts",
+                  "label": "识别文字",
+                  "value": "韭菜收割者"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/65e933ae558ca574b6b548dd408d3563.png",
+              "width": 1440
+            },
+            {
+              "asset_id": 766441,
+              "format": "png",
+              "height": 512,
+              "size": 99079,
+              "tagging_status": "tagged",
+              "tags": [
+                {
+                  "key": "dimensions",
+                  "label": "尺寸",
+                  "value": "512x512"
+                },
+                {
+                  "key": "aspect_ratio",
+                  "label": "比例",
+                  "value": "1:1"
+                },
+                {
+                  "key": "format",
+                  "label": "格式",
+                  "value": "PNG"
+                },
+                {
+                  "key": "has_game_title",
+                  "label": "含游戏标题",
+                  "value": "否"
+                },
+                {
+                  "key": "has_commercial_content",
+                  "label": "含商业内容",
+                  "value": "否"
+                },
+                {
+                  "key": "gameplay_area_ratio",
+                  "label": "实机画面占比",
+                  "value": "0%"
+                },
+                {
+                  "key": "is_concept_art",
+                  "label": "概念图",
+                  "value": "是"
+                },
+                {
+                  "key": "clean_feed",
+                  "label": "无字纯净版",
+                  "value": "是"
+                },
+                {
+                  "key": "is_rounded_corner",
+                  "label": "圆角",
+                  "value": "否"
+                },
+                {
+                  "key": "background_type",
+                  "label": "背景类型",
+                  "value": "其他"
+                },
+                {
+                  "key": "primary_colors",
+                  "label": "主色调",
+                  "value": "#2C6B38, #1A1D25, #82E069, #FFFFFF, #96502C"
+                },
+                {
+                  "key": "art_style",
+                  "label": "画风",
+                  "value": "pixel art"
+                },
+                {
+                  "key": "key_visual_elements",
+                  "label": "核心视觉元素",
+                  "value": "grim reaper character, scythe weapon, green pixel creatures, pixel gold coins"
+                },
+                {
+                  "key": "mood",
+                  "label": "视觉情绪",
+                  "value": "mysterious"
+                },
+                {
+                  "key": "subject_type",
+                  "label": "主体类型",
+                  "value": "mixed"
+                },
+                {
+                  "key": "subject_description",
+                  "label": "主体描述",
+                  "value": "像素风格的持镰刀黑衣死神，旁侧伴随两个绿色小怪和掉落金币"
+                },
+                {
+                  "key": "subject_prominence",
+                  "label": "主体显著度",
+                  "value": "45（主体一般）"
+                }
+              ],
+              "url": "https://img-tc.tapimg.com/market/images/2da8013572ae045b4cec85afd663eb42.png",
+              "width": 512
+            }
+          ],
+          "recommended_asset_id": 766444,
+          "recommended_reason": "已优先选择更适合作为宣传图（1:1）(1440×1440)参考图的素材",
+          "target_scene": "square_banner",
+          "total": 8
+        }
+      ]
+    },
+    "status": "completed"
+  },
+  "meta": {
+    "catalog": {
+      "source_version": "1.0.66",
+      "digest": "sha256:c464ff4fdcc7810562d803f4ca3e117ae18713252dc899ca1419f10f01e4fc1e",
+      "loaded_from": "embedded"
+    }
+  },
+  "_notice": {
+    "update_check": {
+      "command": "taptap-cli update --check --json",
+      "message": "Automatic update check could not complete; run: taptap-cli update --check --json",
+      "reason": "timeout",
+      "status": "unavailable"
+    }
+  }
+}
