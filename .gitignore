@@ -1,3 +1,12 @@
 node_modules
 dist
 *.log
+
+# TapTap 素材缓存与大文件
+taptap-assets/frames*/
+taptap-assets/raw/
+taptap-assets/*.mp4
+taptap-assets/*.jpg
+h5package/
+jiucai-h5-*.zip
+.taptap/
